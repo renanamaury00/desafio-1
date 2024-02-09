@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 47px;
+}
+
+.link-header {
+    color: #17233D;
+    margin-right: 33px;
+    cursor: pointer;
+
+}
+
+button {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    background-color: #6FBF44;
+    cursor: pointer;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+.image{
+    display: inline-block;
+}
+
+.text {
+    display: inline-block;
+}
+main {
+    margin-top: -363px;
+    display: inline-block;
+    margin-left: 800px;
+    margin-bottom: 518px;
+}
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    Line height: 82px;
+    width: 582px;
+    height: 164px;
+}
+
+p {
+    margin-bottom: 80px;
+    font-size: 18px;
+    Line height: 33px;
+    width: 493px;
+    margin-top: 47px;
+
+}
+
+.link-main {
+    margin-top: 55px;
+    color: #6FBF44;
+    font-size: 18px;
+    Line height: 27px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 790px) {
+
+    body {
+        height: 80vh;
+        width: 390px;
+        padding: 0;
+        margin: 0;
+    }
+        
+        .link-header {
+            display: none;
+        }
+       .image {
+        margin-top: 280px;
+        display: block;
+        position: fixed;
+        margin-left: 40px;
+       }
+       main {
+        margin-top: 10px;
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 518px;
+    }
+    
+    
+        
+        h1 {
+            font-size: 30px;
+            Line-height: 30px;
+            text-align: center;
+            width: 278px;
+            margin-top: 70px;
+            height:55px;
+    
+        }
+    
+        p {
+            font-Size: 18px;
+            Line-height: 33px;
+            text-align: center;
+            width: 304px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    
+        .link-main {
+            margin-left: 100px;
+            font-size: 18px;
+            Line-height:27px;
+            
+    }
+    
+        img {
+            display: block;
+            Width:315px;
+            Height: 288px;
+            position: static;
+            margin-left: 55px;    
+         }
+        
+            button {
+            color: #ffffff;
+            font-size: 12px;
+            line-height: 18px;
+            width: 91px;
+            height: 31px;
+            border: 1px solid #4cb538;
+            border-radius: 6px;
+            background-color: #6FBF44;
+            cursor: pointer;
+            margin-left: 100%;
+        }
+
+
+
+
+
+}
